@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from '../../images/logo.png';
-import headerBg from '../../images/headerBg.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
 
     const menuItem = <>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Home</Link></li>
-        <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>About</Link></li>
+        <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-0'><Link className='hover:bg-transparent' to='/'>About</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Features</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Blog</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Order</Link></li>
@@ -16,7 +15,7 @@ const Header = () => {
     </>
 
     return (
-        <section style={{ background: `url(${headerBg})` }} className='px-4 sm:px-10'>
+        <section className='px-4 sm:px-10'>
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
