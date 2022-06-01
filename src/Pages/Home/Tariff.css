@@ -1,0 +1,31 @@
+.hover, .active {
+    transition: 0.3s;
+    position: relative;
+}
+
+.hover:hover , .active{
+    background-color: #FFC71A;
+}
+
+.hover:hover .number, .active .number {
+    color: #000;
+}
+
+.hover:hover button, .active button {
+    background-color: black;
+    color: #fff;
+}
+
+.display img , .active .display img{
+    display: none;
+}
+
+.hover:hover .display img, .active .display img {
+    background-color: #000;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+}

@@ -3,7 +3,7 @@ import car from '../../images/car.png'
 
 const Focus = () => {
     return (
-        <section className='bg-primary py-10 grid grid-cols-1 md:grid-cols-2 px-4 md:px-16'>
+        <section className='bg-primary py-10 grid grid-cols-1 md:grid-cols-2 px-4 gap-5 md:px-16'>
             <div className='pt-10'>
                 <h3 className='font-extrabold text-lg text-black uppercase'>Best In City</h3>
                 <h2 className='text-3xl font-bold text-black uppercase pt-2 p-0 md:pr-6'>Trusted Cab Services In Chattogram</h2>
