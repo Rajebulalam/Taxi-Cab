@@ -4,6 +4,7 @@ import Download from './Download';
 import Features from './Features';
 import Focus from './Focus';
 import Tariff from './Tariff';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Tariff></Tariff>
             <Features></Features>
             <Download></Download>
+            <Testimonial></Testimonial>
         </section>
     );
 };
