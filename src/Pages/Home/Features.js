@@ -11,7 +11,7 @@ const Features = () => {
             <div className='w-full sm:w-11/12 mx-auto sm:px-14'>
                 <h3 className='text-primary font-bold text-center text-2xl uppercase'>We Do Best</h3>
                 <h2 className='text-white font-bold text-center text-3xl uppercase'>Than You Wish</h2>
-                <div className='py-10 grid grid-cols-1 sm:grid-cols-2 gap-10'>
+                <div className='py-10 grid grid-cols-1 sm:grid-cols-2 gap-14'>
                     <div className='flex items-center'>
                         <div className='bg-primary p-4 flex items-center justify-center rounded-full w-[10%]'>
                             <img src={star} alt="featureImg" />
