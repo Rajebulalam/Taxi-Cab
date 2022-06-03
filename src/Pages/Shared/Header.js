@@ -6,7 +6,7 @@ const Header = () => {
 
     const menuItem = <>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Home</Link></li>
-        <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-0'><Link className='hover:bg-transparent' to='/'>About</Link></li>
+        <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>About</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Features</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Blog</Link></li>
         <li className='hover:bg-primary hover:text-black hover:rounded-full px-3 my-1'><Link className='hover:bg-transparent' to='/'>Order</Link></li>
