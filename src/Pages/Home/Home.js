@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import Connect from './Connect';
 import Download from './Download';
 import Features from './Features';
 import Focus from './Focus';
@@ -15,6 +16,7 @@ const Home = () => {
             <Features></Features>
             <Download></Download>
             <Testimonial></Testimonial>
+            <Connect></Connect>
         </section>
     );
 };
