@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Banner from './Banner';
 import Connect from './Connect';
 import Download from './Download';
@@ -17,6 +18,7 @@ const Home = () => {
             <Download></Download>
             <Testimonial></Testimonial>
             <Connect></Connect>
+            <Footer></Footer>
         </section>
     );
 };
